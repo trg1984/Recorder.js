@@ -13,7 +13,9 @@ License
 -------
 Copyright (c) 2016 Rolf Lindén.
 
-MIT license
+Recorder.js - MIT license
+
+Lame.js was written by [zhuker](https://github.com/zhuker) and its lisence is included in lamejs.LICENSE .
 
 Feel free to use in any way you like, but it would be nice of you if you credited me,
 and sent fixes and changes as pull requests back to me so I can maintain this version
