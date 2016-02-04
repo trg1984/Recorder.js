@@ -1,7 +1,7 @@
 Recorder.js
 ===========
 
-Recorder.js = HTML5 getUserMedia + Lame.js + jQuery
+Recorder.js = HTML5 getUserMedia + (https://github.com/zhuker/lamejs)[Lame.js] + jQuery
 
 A JavaScript based recording UI component that records and clips microphone input to
 samples and encodes the samples to MP3 using Lame.js. Everything is done in the browser
