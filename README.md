@@ -7,6 +7,8 @@ A JavaScript based recording UI component that records and clips microphone inpu
 samples and encodes the samples to MP3 using Lame.js. Everything is done in the browser
 and no backend is needed. The UI component supports localization and resizing.
 
+[Live demo](http://kulmakerroin.net/micrec/)
+
 License
 -------
 Copyright (c) 2016 Rolf Lindén.
