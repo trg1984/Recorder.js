@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf8" />
+		<title>Mic record + encode + send test</title>
+		<style>
+			.item {
+				min-width: 16px;
+				min-height: 16px;
+				display: inline-block;
+				background-color: skyblue;
+				border: 1px solid gray;
+				margin: 4px;
+				padding: 0.3em;
+				color: white;
+				font-size: 80%;
+			}
+			
+			.button {
+				padding: 0.3em;
+				border: 1px solid gray;
+				background-color: silver;
+				display: inline-block;
+				margin: 4px;
+				cursor: pointer;
+			}
+		</style>
+		<script src="jquery-1.10.2.js"></script>
+		<script src="lame.all.js"></script>
+		<script src="Recorder.js"></script>
+		<script>
+			
+			$(document).ready(function() {
+				var rec = new Recorder($('.placeholder'));
+			});
+		</script>
+	</head>
+	<body>
+		<div class="placeholder"></div>
+	</body>
+</html>
